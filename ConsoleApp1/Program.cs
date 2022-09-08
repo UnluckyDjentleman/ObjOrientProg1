@@ -227,7 +227,6 @@ namespace ConsoleApp1
                     Console.WriteLine(e.Message);
                 }
             }
-            Console.Beep();
         }
     }
 }
