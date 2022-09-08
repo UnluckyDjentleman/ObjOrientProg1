@@ -144,13 +144,13 @@ namespace ConsoleApp1
             (int, string) boxer = (1,"Tuple");
             object tuple1 = boxer;
             (int, string) box = ((int, string))tuple1;
-            var (_, _, _,points) = statistic("Player");
+            var (_, _,_,points) = statistic("Player");
             Console.WriteLine($"The winner of Hart Trophy has {points} points. He is Name Player from Quebec Nordiques, №64");
             (string name, int goals, int assists, int points) statistic(string name)
             {
                 if (name == "Player")
                 {
-                    return (name, 56, 73, 56+73);
+                    return (name, 56, 74, 56+74);
                 }
                 return ("", 0, 0, 0);
             }
