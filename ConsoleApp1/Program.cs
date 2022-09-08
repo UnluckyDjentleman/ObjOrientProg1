@@ -162,7 +162,6 @@ namespace ConsoleApp1
                 mat[i] = Convert.ToInt16(Console.Read());
             }
             funk(mat, s);
-            oddeven(mat);
             void funk(int[]array,string str)
             {
                 int min = mat[0];
@@ -187,20 +186,6 @@ namespace ConsoleApp1
                 Console.WriteLine("Min: "+min);
                 Console.WriteLine("Sum: "+sum);
                 Console.WriteLine("First letter: "+s[0]);
-            }
-            void oddeven(int[] array)
-            {
-                foreach(int el in mat)
-                {
-                    if (el % 2 == 0)
-                    {
-                        Console.WriteLine("Element "+el+" is odd");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Element "+el+" is even");
-                    }
-                }
             }
             /*----------------6--------------*/
             int a = int.MaxValue;
